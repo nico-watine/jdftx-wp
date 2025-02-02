@@ -1,0 +1,56 @@
+// Global Container - "Le Blog" banner section on non-blog pages
+// Displays latest 4 blog posts (2 on mobile)
+.blogElement {
+	.fusion-post-wrapper {
+		// styling the article card
+		border-radius: 20px;
+		overflow: hidden;
+		border: 4px solid #fff !important;
+
+		h3 {
+			// specifying card heading size
+			font-size: 24px !important;
+		}
+	}
+}
+// ------------------------------------------------
+
+
+// <div> with blue background above page content that
+// contains article meta info (Author/Published/Categories)
+.fusion-body .fusion-meta-tb {
+	// give the <div> curved corners
+	border-radius: 12px !important;
+}
+// ------------------------------------------------
+
+
+// The mini popups that contain article title and feature-img
+// when hovering over "< Previous" and "Next >"
+.layout-preview {
+	.fusion-pagination-preview-wrapper {
+		overflow: hidden !important;
+
+		.fusion-item-title {
+			// let long titles wrap lines rather than the default
+			// behavior of popup extending out of the viewport
+			white-space: normal !important;
+		}
+	}
+}
+
+// Popups at top of article
+.layout-preview.position-bottom {
+	.fusion-pagination-preview-wrapper {
+		border-radius: 0 0 12px 12px !important;
+	}
+}
+
+// Popups at end of article
+.layout-preview.position-top {
+	.fusion-pagination-preview-wrapper {
+		border-radius: 12px 12px 0 0!important;
+	}
+}
+// ------------------------------------------------
+

@@ -1,0 +1,16 @@
+// <footer> site colophon
+a.site-colophon {
+	text-decoration: unset !important;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+
+	span {
+		text-decoration: underline;
+		text-decoration-thickness: 2px !important;
+	}
+
+	&:hover {
+		text-decoration: underline !important;
+		text-decoration-thickness: 2px !important;
+	}
+}

@@ -1,0 +1,13 @@
+// Grid Gallery Styles
+.grid-gallery-cards {
+	.fusion-gallery-image,
+	.awb-imageframe-caption {
+		box-shadow: $z-1;
+	}
+
+	.awb-imageframe-caption {
+		background: #fff;
+		border-radius: 0 0 8px 8px;
+		padding: 16px;
+	}
+}

@@ -1,0 +1,151 @@
+a.site-colophon {
+  text-decoration: unset !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+a.site-colophon span {
+  text-decoration: underline;
+  text-decoration-thickness: 2px !important;
+}
+a.site-colophon:hover {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2px !important;
+}
+
+.blogElement .fusion-post-wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 4px solid #fff !important;
+}
+.blogElement .fusion-post-wrapper h3 {
+  font-size: 24px !important;
+}
+
+.fusion-body .fusion-meta-tb {
+  border-radius: 12px !important;
+}
+
+.layout-preview .fusion-pagination-preview-wrapper {
+  overflow: hidden !important;
+}
+.layout-preview .fusion-pagination-preview-wrapper .fusion-item-title {
+  white-space: normal !important;
+}
+
+.layout-preview.position-bottom .fusion-pagination-preview-wrapper {
+  border-radius: 0 0 12px 12px !important;
+}
+
+.layout-preview.position-top .fusion-pagination-preview-wrapper {
+  border-radius: 12px 12px 0 0 !important;
+}
+
+input,
+textarea {
+  border-color: #697b99 !important;
+  color: #0a0a0a !important;
+}
+
+.commentsElement #comment-input input#url {
+  display: none !important;
+  visibility: hidden !important;
+}
+.commentsElement .form-submit input#comment-submit {
+  background: #697b99 !important;
+  color: #fff !important;
+}
+.commentsElement .form-submit input#comment-submit:hover {
+  background: #fffeb3 !important;
+  border-color: #697b99 !important;
+  color: #0a0a0a !important;
+}
+
+.grid-gallery-cards .fusion-gallery-image,
+.grid-gallery-cards .awb-imageframe-caption {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+}
+.grid-gallery-cards .awb-imageframe-caption {
+  background: #fff;
+  border-radius: 0 0 8px 8px;
+  padding: 16px;
+}
+
+.tribe-events .tribe-events-calendar-list__month-separator:after {
+  background-color: #697b99 !important;
+}
+
+.tribe-common .tribe-common-c-btn-border-small,
+.tribe-common a.tribe-common-c-btn-border-small {
+  border: 2px solid #5ac8fa !important;
+  border-radius: 8px !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+  padding-top: 0 !important;
+}
+
+.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
+  color: #0a0a0a !important;
+}
+
+.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title,
+.single-tribe_events main .fusion-content-widget-area .tribe-events-tickets-title,
+.single-tribe_events main .fusion-content-widget-area .widget .heading h4,
+.single-tribe_events main .fusion-content-widget-area .widget .widget-title {
+  color: #0a0a0a !important;
+  border-radius: 8px !important;
+  background-color: #f1f1f1 !important;
+}
+
+.avada-ec-not-100-width.avada-ec-meta-layout-sidebar.single-tribe_events #main .sidebar {
+  border-radius: 16px !important;
+}
+
+.single-tribe_events .tribe-events-event-meta dl {
+  color: #fff !important;
+}
+
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
+  background: #1779ba !important;
+  border-radius: 12px !important;
+}
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button:hover, .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button:focus {
+  background: #5ac8fa !important;
+}
+
+.tribe-events-c-subscribe-dropdown__list {
+  border-radius: 12px !important;
+}
+
+.tribe-events-c-subscribe-dropdown__list-item {
+  border-radius: 8px !important;
+}
+.tribe-events-c-subscribe-dropdown__list-item:hover {
+  background-color: #1779ba !important;
+  color: #fff !important;
+  text-decoration: underline !important;
+}
+
+.tribe-events-event-url a:hover,
+a.tribe-events-gmap:hover {
+  color: #5ac8fa !important;
+}
+
+#tribe-events-content #tribe-events-footer {
+  border-color: #697b99 !important;
+}
+
+.single-tribe_events .tribe-events-schedule h3 {
+  white-space: unset !important;
+}
+
+.tribe-events-content {
+  hyphens: auto !important;
+}
+
+.fusion-events-featured-image,
+.fusion-theme-sharing-box.fusion-sharing-box,
+.tribe-events-calendar-list__event-featured-image-link {
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}

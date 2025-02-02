@@ -1,0 +1,89 @@
+.tribe-events .tribe-events-calendar-list__month-separator:after {
+	background-color: $jdfblue !important;
+}
+
+.tribe-common .tribe-common-c-btn-border-small,
+.tribe-common a.tribe-common-c-btn-border-small {
+	border: 2px solid $breadcrumbblue !important;
+	border-radius: 8px !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+	padding-top: 0 !important;
+}
+
+.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
+	color: $black !important;
+}
+
+.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title,
+.single-tribe_events main .fusion-content-widget-area .tribe-events-tickets-title,
+.single-tribe_events main .fusion-content-widget-area .widget .heading h4,
+.single-tribe_events main .fusion-content-widget-area .widget .widget-title {
+	color: $black !important;
+	border-radius: 8px !important;
+	background-color: #f1f1f1 !important;
+}
+
+.avada-ec-not-100-width.avada-ec-meta-layout-sidebar.single-tribe_events #main .sidebar {
+	border-radius: 16px !important;
+}
+
+.single-tribe_events .tribe-events-event-meta dl {
+	color: #fff !important;
+}
+
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
+	background: $linkblue !important;
+	border-radius: 12px !important;
+
+	&:hover,
+	&:focus {
+		background: $breadcrumbblue !important;
+	}
+}
+
+.tribe-events-c-subscribe-dropdown__list {
+	border-radius: 12px !important;
+}
+
+.tribe-events-c-subscribe-dropdown__list-item {
+	border-radius: 8px !important;
+
+	&:hover {
+		background-color: $linkblue !important;
+		color: $white !important;
+		text-decoration: underline !important;
+	}
+}
+
+.tribe-events-event-url a,
+a.tribe-events-gmap {
+	&:hover {
+		color: $breadcrumbblue !important;
+	}
+}
+
+#tribe-events-content #tribe-events-footer {
+	border-color: $jdfblue !important;
+}
+
+.single-tribe_events .tribe-events-schedule h3 {
+	white-space: unset !important;
+}
+
+.tribe-events-content {
+	hyphens: auto !important;
+}
+
+.fusion-events-featured-image,
+.fusion-theme-sharing-box.fusion-sharing-box,
+.tribe-events-calendar-list__event-featured-image-link {
+	border-radius: 16px !important;
+	overflow: hidden !important;
+}
+
+// .fusion-events-single-title .fusion-events-single-title-content,
+// .fusion-theme-sharing-box.fusion-sharing-box {
+// 	border-radius: 16px !important;
+// }
