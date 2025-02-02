@@ -10,6 +10,11 @@ a.site-colophon span {
 a.site-colophon:hover {
   text-decoration: underline !important;
   text-decoration-thickness: 2px !important;
+  text-decoration-color: #5ac8fa !important;
+  color: #fff !important;
+}
+a.site-colophon:hover span {
+  text-decoration-color: #5ac8fa !important;
 }
 
 .blogElement .fusion-post-wrapper {

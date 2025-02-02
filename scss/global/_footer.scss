@@ -1,4 +1,4 @@
-// <footer> site colophon
+// <footer> SNC site colophon
 a.site-colophon {
 	text-decoration: unset !important;
 	text-transform: uppercase;
@@ -12,5 +12,11 @@ a.site-colophon {
 	&:hover {
 		text-decoration: underline !important;
 		text-decoration-thickness: 2px !important;
+		text-decoration-color: $breadcrumbblue !important;
+		color: $white !important;
+
+		span {
+			text-decoration-color: $breadcrumbblue !important;
+		}
 	}
 }
