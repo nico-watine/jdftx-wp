@@ -17,6 +17,20 @@ a.site-colophon:hover span {
   text-decoration-color: #5ac8fa !important;
 }
 
+nav.footer-menu .menu-item a:hover {
+  text-decoration: underline !important;
+  color: #fff !important;
+  text-decoration-color: #5ac8fa !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: 3px !important;
+}
+nav.footer-menu .menu-item.current-menu-item a {
+  text-decoration: underline !important;
+  text-decoration-color: #fff !important;
+  text-decoration-thickness: 2px !important;
+  text-underline-offset: initial !important;
+}
+
 .blogElement .fusion-post-wrapper {
   border-radius: 20px;
   overflow: hidden;

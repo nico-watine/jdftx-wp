@@ -20,3 +20,25 @@ a.site-colophon {
 		}
 	}
 }
+
+nav.footer-menu {
+	.menu-item {
+		a:hover {
+			text-decoration: underline !important;
+			color: $white !important;
+			text-decoration-color: $breadcrumbblue !important;
+			text-decoration-thickness: 2px !important;
+			text-underline-offset: 3px !important;
+		}
+	}
+
+	.menu-item.current-menu-item {
+		a {
+			text-decoration: underline !important;
+			text-decoration-color: $white !important;
+			text-decoration-thickness: 2px !important;
+			text-underline-offset: initial !important;
+		}
+	}
+}
+
