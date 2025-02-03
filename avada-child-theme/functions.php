@@ -57,8 +57,10 @@ remove_action('wp_head', 'rest_output_link_wp_head');
 // ----------------------
 // Below all are related to oEmbed, so disabling might affect my Instagram feed from loading:
 
-// Remove oEmbed discovery links from <head>
-remove_action('wp_head', 'wp_oembed_add_discovery_links'); // Event after disabling, site is still loading IG posts. Keep an eye after next IG post to see if site registers it
+// Remove 2 oEmbed discovery links from <head>:
+// <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
+// <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
+remove_action('wp_head', 'wp_oembed_add_discovery_links'); // Even after disabling, site is still loading IG posts. Keep an eye after next IG post to see if site registers it
 
 // No need to load oEmbed JavaScript since disabled the discovery links above
 remove_action('wp_head', 'wp_oembed_add_host_js');
