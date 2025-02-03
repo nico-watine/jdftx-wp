@@ -83,7 +83,15 @@ a.tribe-events-gmap {
 	overflow: hidden !important;
 }
 
-// .fusion-events-single-title .fusion-events-single-title-content,
-// .fusion-theme-sharing-box.fusion-sharing-box {
-// 	border-radius: 16px !important;
-// }
+.tribe-events .tribe-events-calendar-list-nav {
+	border-top: 4px solid $jdfblue !important;
+}
+
+.tribe-events .tribe-events-calendar-list__month-separator:after {
+	height: 4px !important;
+	border-radius: 4px !important;
+}
+
+.tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
+	width: 4px !important;
+}

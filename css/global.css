@@ -168,3 +168,16 @@ a.tribe-events-gmap:hover {
   border-radius: 16px !important;
   overflow: hidden !important;
 }
+
+.tribe-events .tribe-events-calendar-list-nav {
+  border-top: 4px solid #697b99 !important;
+}
+
+.tribe-events .tribe-events-calendar-list__month-separator:after {
+  height: 4px !important;
+  border-radius: 4px !important;
+}
+
+.tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
+  width: 4px !important;
+}
