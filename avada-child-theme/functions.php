@@ -63,11 +63,18 @@ remove_action('wp_head', 'rest_output_link_wp_head');
 remove_action('wp_head', 'wp_oembed_add_discovery_links'); // Even after disabling, site is still loading IG posts. Keep an eye after next IG post to see if site registers it
 
 // No need to load oEmbed JavaScript since disabled the discovery links above
-remove_action('wp_head', 'wp_oembed_add_host_js');
+remove_action('wp_head', 'wp_oembed_add_host_js'); // Even with "wp_oembed_add_discovery_links" active, seems like this action isn't loading anything additional
 
+// Disabling this prevents WordPress from adding oEmbed-related routes to the REST API
 remove_action('rest_api_init', 'wp_oembed_register_route');
+
+// Having disabled oEmbed, this ensures WordPress doesn't modify oEmbed results
 remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
+
+// Disabling this prevents WordPress from handling oEmbed responses
 remove_filter('pre_oembed_result', 'wp_filter_pre_oembed_result', 10);
+
+// Disabling this prevents WordPress from attempting to discover oEmbed providers automatically
 add_filter('embed_oembed_discover', '__return_false');
 // ----------------------
 
