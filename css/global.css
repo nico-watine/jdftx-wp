@@ -43,6 +43,10 @@ nav.footer-menu .menu-item.current-menu-item a {
 .fusion-body .fusion-meta-tb {
   border-radius: 12px !important;
 }
+.fusion-body .fusion-meta-tb a:hover {
+  color: #fff !important;
+  text-decoration-color: #5ac8fa !important;
+}
 
 .layout-preview .fusion-pagination-preview-wrapper {
   overflow: hidden !important;
@@ -57,6 +61,16 @@ nav.footer-menu .menu-item.current-menu-item a {
 
 .layout-preview.position-top .fusion-pagination-preview-wrapper {
   border-radius: 12px 12px 0 0 !important;
+}
+
+.fusion-page-title-bar .fusion-breadcrumbs a {
+  text-decoration-color: #5ac8fa !important;
+}
+.fusion-page-title-bar .fusion-breadcrumbs a:hover {
+  color: #fff !important;
+}
+.fusion-page-title-bar .fusion-breadcrumbs .breadcrumb_last {
+  color: #fff !important;
 }
 
 input,

@@ -21,6 +21,13 @@
 .fusion-body .fusion-meta-tb {
 	// give the <div> curved corners
 	border-radius: 12px !important;
+
+	a {
+		&:hover {
+			color: $white !important;
+			text-decoration-color: $breadcrumbblue !important;
+		}
+	}
 }
 // ------------------------------------------------
 
@@ -53,4 +60,20 @@
 	}
 }
 // ------------------------------------------------
+
+// Page Title - Breadcrumb Styles
+.fusion-page-title-bar .fusion-breadcrumbs {
+	a {
+		text-decoration-color: $breadcrumbblue !important;
+
+		&:hover {
+			color: $white !important;
+		}
+	}
+
+	.breadcrumb_last {
+		color: $white !important; // Make active page white to clarify is not clickable link
+	}
+}
+
 
