@@ -32,23 +32,44 @@ remove_action('wp_head', 'feed_links_extra', 3);
 // Remove the link to the Windows Live Writer manifest file
 remove_action('wp_head', 'wlwmanifest_link');
 
-// Removes the adjacent post links
+// Remove the adjacent post links
 remove_action('wp_head', 'adjacent_posts_rel_link', 10, 0);
 remove_action('wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
-
-// Additional functions to be annotated
+// Remove <link rel="index" href"URL"> which is unnecessary for SEO in modern times
 remove_action('wp_head', 'index_rel_link');
+
+// Remove <link rel-"start" href="URL">, which links to the first post in chronological order
 remove_action('wp_head', 'start_post_rel_link', 10, 0);
+
+// Remove <link rel="prev"> which points to the parent post
 remove_action('wp_head', 'parent_post_rel_link', 10, 0);
-remove_action('wp_head', 'wp_oembed_add_discovery_links');
-remove_action('wp_head', 'wp_oembed_add_host_js');
+
+// Remove <link rel="https://api.w.org/" href="URL"> which is useful for API clients but not needed for JDF
 remove_action('wp_head', 'rest_output_link_wp_head');
-remove_action( 'wp_head', 'wp_resource_hints', 2, 99 );
+
+// Disabling this removes recource hints (DNS prefetching and preloadinng)
+// Might impact performance but could be useful if I want full control over preloading
+// remove_action( 'wp_head', 'wp_resource_hints', 2, 99 );
+
+
+
+// ----------------------
+// Below all are related to oEmbed, so disabling might affect my Instagram feed from loading:
+
+// Remove oEmbed discovery links from <head>
+remove_action('wp_head', 'wp_oembed_add_discovery_links'); // Event after disabling, site is still loading IG posts. Keep an eye after next IG post to see if site registers it
+
+// No need to load oEmbed JavaScript since disabled the discovery links above
+remove_action('wp_head', 'wp_oembed_add_host_js');
+
 remove_action('rest_api_init', 'wp_oembed_register_route');
 remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
 remove_filter('pre_oembed_result', 'wp_filter_pre_oembed_result', 10);
 add_filter('embed_oembed_discover', '__return_false');
+// ----------------------
+
+
 
 // Enable animated gifs for feature images for posts, as displayed on main Blog roll
 function use_original_gif($html, $post_id, $post_thumbnail_id, $size, $attr) {
