@@ -112,9 +112,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/avada-child-theme\/style-min.css",
-      "oF" : 0,
+      "oF" : 1,
       "pg" : 0
     },
     "\/css\/global.css" : {
