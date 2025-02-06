@@ -105,6 +105,18 @@
       "oAP" : "\/avada-child-theme\/functions.php",
       "oF" : 0
     },
+    "\/avada-child-theme\/style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/avada-child-theme\/style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/global.css" : {
       "aP" : 1,
       "bl" : 0,
