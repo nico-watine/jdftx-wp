@@ -1,0 +1,19 @@
+$max640w: "only screen and (max-width : 640px)";
+$min641w: "only screen and (min-width : 641px)";
+
+
+.max640w-border-radius-32px {
+	video {
+		@media #{$max640w} {
+			border-radius: 32px !important;
+		}
+	}
+}
+
+.min641w-height-400px {
+	video {
+		@media #{$min641w} {
+			height: 400px !important;
+		}
+	}
+}
