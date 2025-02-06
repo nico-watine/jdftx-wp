@@ -1,10 +1,10 @@
 <?php
 
 // Avada function - load Child Theme CSS
-add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles', 20 );
 function theme_enqueue_styles() {
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', [], wp_get_theme()->get( 'Version' ) );
 }
+add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles', 20 );
 
 // Avada funtion - add Language ability
 function avada_lang_setup() {
