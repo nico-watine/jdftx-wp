@@ -51,7 +51,15 @@ remove_action('wp_head', 'rest_output_link_wp_head');
 // Disabling this removes recource hints (DNS prefetching and preloadinng)
 remove_action( 'wp_head', 'wp_resource_hints', 2, 99 );
 
-
+// Enable animated gifs for feature images for posts, as displayed on main Blog roll
+function use_original_gif($html, $post_id, $post_thumbnail_id, $size, $attr) {
+	$image_url = wp_get_attachment_url($post_thumbnail_id);
+	if (strpos($image_url, '.gif') !== false) {
+		return '<img src="' . esc_url($image_url) . '" class="wp-post-image">';
+	}
+	return $html;
+}
+add_filter('post_thumbnail_html', 'use_original_gif', 10, 5);
 
 // ----------------------
 // Below all are related to oEmbed, so disabling might affect my Instagram feed from loading:
@@ -76,15 +84,3 @@ remove_action( 'wp_head', 'wp_resource_hints', 2, 99 );
 // Disabling this prevents WordPress from attempting to discover oEmbed providers automatically
 // add_filter('embed_oembed_discover', '__return_false');
 // ----------------------
-
-
-
-// Enable animated gifs for feature images for posts, as displayed on main Blog roll
-function use_original_gif($html, $post_id, $post_thumbnail_id, $size, $attr) {
-	$image_url = wp_get_attachment_url($post_thumbnail_id);
-	if (strpos($image_url, '.gif') !== false) {
-		return '<img src="' . esc_url($image_url) . '" class="wp-post-image">';
-	}
-	return $html;
-}
-add_filter('post_thumbnail_html', 'use_original_gif', 10, 5);
