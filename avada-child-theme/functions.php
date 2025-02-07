@@ -51,6 +51,18 @@ remove_action('wp_head', 'rest_output_link_wp_head');
 // Disabling this removes recource hints (DNS prefetching and preloadinng)
 remove_action( 'wp_head', 'wp_resource_hints', 2, 99 );
 
+// Add the new expanded viewport meta tag
+function modify_viewport_meta_tag() {
+	echo '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">';
+}
+add_action('wp_head', 'modify_viewport_meta_tag', 1);
+
+// Set the browser theme-color
+function set_browser_theme_color() {
+	echo '<meta name="theme-color" content="#758ca3">';
+}
+add_action('wp_head', 'set_browser_theme_color', 1);
+
 // Enable animated gifs for feature images for posts, as displayed on main Blog roll
 function use_original_gif($html, $post_id, $post_thumbnail_id, $size, $attr) {
 	$image_url = wp_get_attachment_url($post_thumbnail_id);
