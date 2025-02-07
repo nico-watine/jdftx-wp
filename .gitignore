@@ -6,3 +6,5 @@ dist
 *.sublime-project
 *.sublime-workspace
 *.sketch
+*.library
+/_ignores/Jardin de France.library
