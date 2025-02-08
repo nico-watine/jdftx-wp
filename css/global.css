@@ -75,7 +75,7 @@ nav.footer-menu .menu-item.current-menu-item a {
 
 input,
 textarea {
-  border-color: #697b99 !important;
+  border-color: #758ca3 !important;
   color: #0a0a0a !important;
 }
 
@@ -84,12 +84,12 @@ textarea {
   visibility: hidden !important;
 }
 .commentsElement .form-submit input#comment-submit {
-  background: #697b99 !important;
+  background: #758ca3 !important;
   color: #fff !important;
 }
 .commentsElement .form-submit input#comment-submit:hover {
   background: #fffeb3 !important;
-  border-color: #697b99 !important;
+  border-color: #758ca3 !important;
   color: #0a0a0a !important;
 }
 
@@ -104,7 +104,7 @@ textarea {
 }
 
 .tribe-events .tribe-events-calendar-list__month-separator:after {
-  background-color: #697b99 !important;
+  background-color: #758ca3 !important;
 }
 
 .tribe-common .tribe-common-c-btn-border-small,
@@ -165,7 +165,7 @@ a.tribe-events-gmap:hover {
 }
 
 #tribe-events-content #tribe-events-footer {
-  border-color: #697b99 !important;
+  border-color: #758ca3 !important;
 }
 
 .single-tribe_events .tribe-events-schedule h3 {
@@ -184,7 +184,7 @@ a.tribe-events-gmap:hover {
 }
 
 .tribe-events .tribe-events-calendar-list-nav {
-  border-top: 4px solid #697b99 !important;
+  border-top: 4px solid #758ca3 !important;
 }
 
 .tribe-events .tribe-events-calendar-list__month-separator:after {
