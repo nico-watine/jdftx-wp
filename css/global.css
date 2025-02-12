@@ -202,8 +202,3 @@ a.tribe-events-gmap:hover {
 a[href^=tel] {
   color: inherit !important;
 }
-@media only screen and (min-width : 641px) {
-  a[href^=tel] {
-    text-decoration: none !important;
-  }
-}
