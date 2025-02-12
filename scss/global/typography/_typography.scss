@@ -1,11 +1,7 @@
-$min641w: "only screen and (min-width : 641px)";
+$min641w: 'only screen and (min-width : 641px)';
 
 // Style all tel: links to match the site's default link styles
 // This is specific for iOS bc phone sniffing otherwise turns phone numbers blue
-a[href^="tel"] {
+a[href^='tel'] {
 	color: inherit !important; // Inherit text color of parent element
-
-	@media #{$min641w} {
-	// text-decoration: none !important; // Remove underline for tablet up
-	}
 }
