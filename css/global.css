@@ -198,3 +198,12 @@ a.tribe-events-gmap:hover {
 .tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
   width: 4px !important;
 }
+
+a[href^=tel] {
+  color: inherit !important;
+}
+@media only screen and (min-width : 641px) {
+  a[href^=tel] {
+    text-decoration: none !important;
+  }
+}
