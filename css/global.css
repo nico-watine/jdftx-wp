@@ -17,6 +17,9 @@ a.site-colophon:hover span {
   text-decoration-color: #5ac8fa !important;
 }
 
+nav.footer-menu .menu-item a {
+  color: #fff !important;
+}
 nav.footer-menu .menu-item a:hover {
   text-decoration: underline !important;
   color: #fff !important;
