@@ -1,11 +1,8 @@
-.tribe-events .tribe-events-calendar-list__month-separator:after {
-	background-color: $jdfblue !important;
-}
-
+// The "Today" button at the top of the main events listing page
 .tribe-common .tribe-common-c-btn-border-small,
 .tribe-common a.tribe-common-c-btn-border-small {
-	border: 2px solid $breadcrumbblue !important;
-	border-radius: $globalRadius*.5 !important;
+	border: 2px solid $linkblue !important;
+	border-radius: $globalradius*.5 !important;
 }
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
@@ -15,13 +12,13 @@
 // "Details" / "Organizer" / "Venue" headings within the event page sidebar
 .single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
 	color: $black !important;
-	border-radius: $globalRadius*.5 !important;
+	border-radius: $globalradius*.5 !important;
 	background-color: $white !important;
 }
 
 // Sidebar on single event page that contains Details/Organizers,etc
 .avada-ec-not-100-width.avada-ec-meta-layout-sidebar.single-tribe_events #main .sidebar {
-	border-radius: $globalRadius !important;
+	border-radius: $globalradius !important;
 }
 
 // The text within the single event page sidebar
@@ -33,7 +30,7 @@
 // Main "Subscribe to Calendar" button on event listings page
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
 	background: $linkblue !important;
-	border-radius: $globalRadius*.75 !important;
+	border-radius: $globalradius*.75 !important;
 	color: $white !important;
 	border: 2px solid $linkblue !important;
 
@@ -46,12 +43,12 @@
 
 // Dropdown list of calendar types that appears after clicking "Add/Subscribe to Calendar" button
 .tribe-events-c-subscribe-dropdown__list {
-	border-radius: $globalRadius*.75 !important;
+	border-radius: $globalradius*.75 !important;
 }
 
 // The invidual calendar options within the calendar type dropdown list
 .tribe-events-c-subscribe-dropdown__list-item {
-	border-radius: $globalRadius*.5 !important;
+	border-radius: $globalradius*.5 !important;
 
 	&:hover {
 		background-color: $linkblue !important;
@@ -89,19 +86,23 @@ a.tribe-events-gmap {
 .fusion-theme-sharing-box.fusion-sharing-box, // the div at the end of an event page with the social sharing buttons
 .tribe-events-calendar-list__event-featured-image-link // the feature image of an event on the main event listings page
 {
-	border-radius: $globalRadius !important;
+	border-radius: $globalradius !important;
 	overflow: hidden !important;
 }
 
+// The div with "Previous/Next Events" at the bottom of the main events listing page
 .tribe-events .tribe-events-calendar-list-nav {
 	border-top: 4px solid $jdfblue !important;
 }
 
+// The separator of a new month on the main events listing page
 .tribe-events .tribe-events-calendar-list__month-separator:after {
 	height: 4px !important;
 	border-radius: 4px !important;
+	background-color: $jdfblue !important;
 }
 
+// The vertical blue line next to a featured event on the main events listing page
 .tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
 	width: 4px !important;
 }

@@ -106,13 +106,9 @@ textarea {
   padding: 16px;
 }
 
-.tribe-events .tribe-events-calendar-list__month-separator:after {
-  background-color: #758ca3 !important;
-}
-
 .tribe-common .tribe-common-c-btn-border-small,
 .tribe-common a.tribe-common-c-btn-border-small {
-  border: 2px solid #5ac8fa !important;
+  border: 2px solid #1779ba !important;
   border-radius: 8px !important;
 }
 
@@ -189,6 +185,7 @@ a.tribe-events-gmap:hover {
 .tribe-events .tribe-events-calendar-list__month-separator:after {
   height: 4px !important;
   border-radius: 4px !important;
+  background-color: #758ca3 !important;
 }
 
 .tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
