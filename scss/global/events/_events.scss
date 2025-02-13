@@ -35,12 +35,14 @@
 
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
 	background: $linkblue !important;
-	border-radius: 12px !important;
+	border-radius: $globalRadius !important;
 	color: $white !important;
+	border: 2px solid $linkblue !important;
 
 	&:hover,
 	&:focus {
 		background: $breadcrumbblue !important;
+		border-color: $white !important;
 	}
 }
 
