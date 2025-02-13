@@ -167,12 +167,12 @@ a.tribe-events-gmap:hover {
   border-color: #758ca3 !important;
 }
 
-.single-tribe_events .tribe-events-schedule h3 {
-  white-space: unset !important;
-}
-
 .tribe-events-content {
   hyphens: auto !important;
+}
+
+.single-tribe_events .tribe-events-schedule h3 {
+  white-space: unset !important;
 }
 
 .fusion-events-featured-image,

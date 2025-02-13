@@ -68,21 +68,27 @@ a.tribe-events-gmap {
 	}
 }
 
+// The thin border above and below the previous/next event links at the bottom of the event page
 #tribe-events-content #tribe-events-footer {
 	border-color: $jdfblue !important;
 }
 
-.single-tribe_events .tribe-events-schedule h3 {
-	white-space: unset !important;
-}
-
+// Allow all text on a single event page to break and wrap with hyphens (headings, links, and body text)
+// Specify this bc vanilla styling has event titles going straight offscreen on mobile and overflow:hidden is set on the <body>
 .tribe-events-content {
 	hyphens: auto !important;
 }
 
-.fusion-events-featured-image,
-.fusion-theme-sharing-box.fusion-sharing-box,
-.tribe-events-calendar-list__event-featured-image-link {
+// Allow the event's date & time to break lines on mobile
+// Like with event titles, vanialla styles has it going offscreen
+.single-tribe_events .tribe-events-schedule h3 {
+	white-space: unset !important;
+}
+
+.fusion-events-featured-image, // main feature image on an event page
+.fusion-theme-sharing-box.fusion-sharing-box, // the div at the end of an event page with the social sharing buttons
+.tribe-events-calendar-list__event-featured-image-link // the feature image of an event on the main event listings page
+{
 	border-radius: $globalRadius !important;
 	overflow: hidden !important;
 }
