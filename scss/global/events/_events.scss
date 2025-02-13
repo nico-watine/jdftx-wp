@@ -30,12 +30,13 @@
 }
 
 .single-tribe_events .tribe-events-event-meta dl {
-	color: #fff !important;
+	color: $white !important;
 }
 
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
 	background: $linkblue !important;
 	border-radius: 12px !important;
+	color: $white !important;
 
 	&:hover,
 	&:focus {
