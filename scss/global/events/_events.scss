@@ -5,37 +5,35 @@
 .tribe-common .tribe-common-c-btn-border-small,
 .tribe-common a.tribe-common-c-btn-border-small {
 	border: 2px solid $breadcrumbblue !important;
-	border-radius: 8px !important;
+	border-radius: $globalRadius*.5 !important;
 }
 
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
 	padding-top: 0 !important;
 }
 
+// "Details" / "Organizer" / "Venue" headings within the event page sidebar
 .single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
 	color: $black !important;
+	border-radius: $globalRadius*.5 !important;
+	background-color: $white !important;
 }
 
-.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title,
-.single-tribe_events main .fusion-content-widget-area .tribe-events-tickets-title,
-.single-tribe_events main .fusion-content-widget-area .widget .heading h4,
-.single-tribe_events main .fusion-content-widget-area .widget .widget-title {
-	color: $black !important;
-	border-radius: 8px !important;
-	background-color: #f1f1f1 !important;
-}
-
+// Sidebar on single event page that contains Details/Organizers,etc
 .avada-ec-not-100-width.avada-ec-meta-layout-sidebar.single-tribe_events #main .sidebar {
-	border-radius: 16px !important;
+	border-radius: $globalRadius !important;
 }
 
+// The text within the single event page sidebar
 .single-tribe_events .tribe-events-event-meta dl {
 	color: $white !important;
 }
 
+// Main "Add to Calendar" button on single event page
+// Main "Subscribe to Calendar" button on event listings page
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
 	background: $linkblue !important;
-	border-radius: $globalRadius !important;
+	border-radius: $globalRadius*.75 !important;
 	color: $white !important;
 	border: 2px solid $linkblue !important;
 
@@ -47,11 +45,11 @@
 }
 
 .tribe-events-c-subscribe-dropdown__list {
-	border-radius: 12px !important;
+	border-radius: $globalRadius*.75 !important;
 }
 
 .tribe-events-c-subscribe-dropdown__list-item {
-	border-radius: 8px !important;
+	border-radius: $globalRadius*.5 !important;
 
 	&:hover {
 		background-color: $linkblue !important;
@@ -82,7 +80,7 @@ a.tribe-events-gmap {
 .fusion-events-featured-image,
 .fusion-theme-sharing-box.fusion-sharing-box,
 .tribe-events-calendar-list__event-featured-image-link {
-	border-radius: 16px !important;
+	border-radius: $globalRadius !important;
 	overflow: hidden !important;
 }
 

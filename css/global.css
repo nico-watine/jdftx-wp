@@ -122,15 +122,8 @@ textarea {
 
 .single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
   color: #0a0a0a !important;
-}
-
-.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title,
-.single-tribe_events main .fusion-content-widget-area .tribe-events-tickets-title,
-.single-tribe_events main .fusion-content-widget-area .widget .heading h4,
-.single-tribe_events main .fusion-content-widget-area .widget .widget-title {
-  color: #0a0a0a !important;
   border-radius: 8px !important;
-  background-color: #f1f1f1 !important;
+  background-color: #fff !important;
 }
 
 .avada-ec-not-100-width.avada-ec-meta-layout-sidebar.single-tribe_events #main .sidebar {
@@ -143,7 +136,7 @@ textarea {
 
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
   background: #1779ba !important;
-  border-radius: 16px !important;
+  border-radius: 12px !important;
   color: #fff !important;
   border: 2px solid #1779ba !important;
 }
