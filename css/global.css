@@ -188,10 +188,6 @@ a.tribe-events-gmap:hover {
   width: 4px !important;
 }
 
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
-  padding-top: 0 !important;
-}
-
 a[href^=tel] {
   color: inherit !important;
 }
