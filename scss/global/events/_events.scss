@@ -44,10 +44,12 @@
 	}
 }
 
+// Dropdown list of calendar types that appears after clicking "Add/Subscribe to Calendar" button
 .tribe-events-c-subscribe-dropdown__list {
 	border-radius: $globalRadius*.75 !important;
 }
 
+// The invidual calendar options within the calendar type dropdown list
 .tribe-events-c-subscribe-dropdown__list-item {
 	border-radius: $globalRadius*.5 !important;
 
@@ -58,6 +60,7 @@
 	}
 }
 
+// Hyperlinks within the event page Sidebar, including "Google Maps" link
 .tribe-events-event-url a,
 a.tribe-events-gmap {
 	&:hover {
