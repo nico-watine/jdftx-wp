@@ -5,10 +5,6 @@
 	border-radius: $globalradius*.5 !important;
 }
 
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
-	padding-top: 0 !important;
-}
-
 // "Details" / "Organizer" / "Venue" headings within the event page sidebar
 .single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
 	color: $black !important;
@@ -105,4 +101,8 @@ a.tribe-events-gmap {
 // The vertical blue line next to a featured event on the main events listing page
 .tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
 	width: 4px !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+	padding-top: 0 !important;
 }

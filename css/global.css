@@ -112,10 +112,6 @@ textarea {
   border-radius: 8px !important;
 }
 
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
-  padding-top: 0 !important;
-}
-
 .single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
   color: #0a0a0a !important;
   border-radius: 8px !important;
@@ -190,6 +186,10 @@ a.tribe-events-gmap:hover {
 
 .tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
   width: 4px !important;
+}
+
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+  padding-top: 0 !important;
 }
 
 a[href^=tel] {
