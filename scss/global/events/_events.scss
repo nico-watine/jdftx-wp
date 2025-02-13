@@ -5,21 +5,21 @@
 	border-radius: $globalradius*.5 !important;
 }
 
-// "Details" / "Organizer" / "Venue" headings within the event page sidebar
-.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
-	color: $black !important;
-	border-radius: $globalradius*.5 !important;
-	background-color: $white !important;
-}
-
 // Sidebar on single event page that contains Details/Organizers,etc
-.avada-ec-not-100-width.avada-ec-meta-layout-sidebar.single-tribe_events #main .sidebar {
+.single-tribe_events main .sidebar {
 	border-radius: $globalradius !important;
-}
 
-// The text within the single event page sidebar
-.single-tribe_events .tribe-events-event-meta dl {
-	color: $white !important;
+	// "Details" / "Organizer" / "Venue" headings within the event page sidebar
+	.tribe-events-single-section-title {
+		color: $black !important;
+		border-radius: $globalradius*.5 !important;
+		background-color: $white !important;
+	}
+
+	// The text within the single event page sidebar
+	dl {
+		color: $white !important;
+	}
 }
 
 // Main "Add to Calendar" button on single event page
@@ -77,11 +77,12 @@ a.tribe-events-gmap {
 .single-tribe_events .tribe-events-schedule h3 {
 	white-space: unset !important;
 }
-
-.fusion-events-featured-image, // main feature image on an event page
-.fusion-theme-sharing-box.fusion-sharing-box, // the div at the end of an event page with the social sharing buttons
-.tribe-events-calendar-list__event-featured-image-link // the feature image of an event on the main event listings page
-{
+// main feature image on an event page
+.fusion-events-featured-image,
+// the div at the end of an event page with the social sharing buttons
+.fusion-theme-sharing-box.fusion-sharing-box,
+// the feature image of an event on the main event listings page
+.tribe-events-calendar-list__event-featured-image-link {
 	border-radius: $globalradius !important;
 	overflow: hidden !important;
 }

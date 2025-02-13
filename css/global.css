@@ -112,17 +112,15 @@ textarea {
   border-radius: 8px !important;
 }
 
-.single-tribe_events main .fusion-content-widget-area .tribe-events-single-section-title {
+.single-tribe_events main .sidebar {
+  border-radius: 16px !important;
+}
+.single-tribe_events main .sidebar .tribe-events-single-section-title {
   color: #0a0a0a !important;
   border-radius: 8px !important;
   background-color: #fff !important;
 }
-
-.avada-ec-not-100-width.avada-ec-meta-layout-sidebar.single-tribe_events #main .sidebar {
-  border-radius: 16px !important;
-}
-
-.single-tribe_events .tribe-events-event-meta dl {
+.single-tribe_events main .sidebar dl {
   color: #fff !important;
 }
 
