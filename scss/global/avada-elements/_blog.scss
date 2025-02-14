@@ -16,8 +16,7 @@
 // ------------------------------------------------
 
 
-// <div> with blue background above page content that
-// contains article meta info (Author/Published/Categories)
+// <div> with blue background above page content that contains article meta info (Author/Published/Categories)
 .fusion-body .fusion-meta-tb {
 	// give the <div> curved corners
 	border-radius: 12px !important;
@@ -32,15 +31,13 @@
 // ------------------------------------------------
 
 
-// The mini popups that contain article title and feature-img
-// when hovering over "< Previous" and "Next >"
+// The mini tooltip popups that contain article title and feature-img when hovering over "< Previous" and "Next >"
 .layout-preview {
 	.fusion-pagination-preview-wrapper {
 		overflow: hidden !important;
 
 		.fusion-item-title {
-			// let long titles wrap lines rather than the default
-			// behavior of popup extending out of the viewport
+			// let long titles wrap lines rather than the default behavior of popup extending out of the viewport
 			white-space: normal !important;
 		}
 	}
