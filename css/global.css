@@ -76,6 +76,10 @@ nav.footer-menu .menu-item.current-menu-item a {
   color: #fff !important;
 }
 
+.fusion-recent-posts .flexslider .slides {
+  border-radius: 12px;
+}
+
 input,
 textarea {
   border-color: #758ca3 !important;
