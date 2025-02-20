@@ -1,5 +1,9 @@
 // Grid Gallery Styles
 .grid-gallery-cards {
+	.fusion-gallery-image {
+		border-radius: $globalradius $globalradius 0 0;
+	}
+
 	.fusion-gallery-image,
 	.awb-imageframe-caption {
 		box-shadow: $z-1;
@@ -7,7 +11,7 @@
 
 	.awb-imageframe-caption {
 		background: #fff;
-		border-radius: 0 0 8px 8px;
+		border-radius: 0 0 $globalradius $globalradius;
 		padding: 16px;
 	}
 }

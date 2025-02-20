@@ -100,13 +100,16 @@ textarea {
   color: #0a0a0a !important;
 }
 
+.grid-gallery-cards .fusion-gallery-image {
+  border-radius: 16px 16px 0 0;
+}
 .grid-gallery-cards .fusion-gallery-image,
 .grid-gallery-cards .awb-imageframe-caption {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
 }
 .grid-gallery-cards .awb-imageframe-caption {
   background: #fff;
-  border-radius: 0 0 8px 8px;
+  border-radius: 0 0 16px 16px;
   padding: 16px;
 }
 
