@@ -80,6 +80,10 @@ nav.footer-menu .menu-item.current-menu-item a {
   border-radius: 12px;
 }
 
+.fusion-post-medium .flexslider .slides {
+  border-radius: 16px !important;
+}
+
 input,
 textarea {
   border-color: #758ca3 !important;

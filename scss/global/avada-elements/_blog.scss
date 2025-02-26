@@ -83,3 +83,10 @@
 		border-radius: $globalradius*.75;
 	}
 }
+
+// Main Le Blog roll article feature image
+.fusion-post-medium {
+	.flexslider .slides {
+		border-radius: $globalradius !important;
+	}
+}
