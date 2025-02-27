@@ -7,7 +7,7 @@
       "uuidString" : "CE5A21BB-F4DE-4D45-AEEC-7D3E52D2EF9A"
     }
   ],
-  "creatorBuild" : "34472",
+  "creatorBuild" : "34418",
   "files" : {
     "\/_ignores\/csscomb.json" : {
       "ft" : 524288,
@@ -16,6 +16,22 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/_ignores\/jdftx-wp.sublime-project" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_ignores\/jdftx-wp.sublime-project",
+      "oF" : 0
+    },
+    "\/_ignores\/jdftx-wp.sublime-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/_ignores\/jdftx-wp.sublime-workspace",
+      "oF" : 0
     },
     "\/_ignores\/Sketch\/Icon\r" : {
       "cB" : 0,
@@ -859,10 +875,6 @@
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
       },
-      "logical-assignment-operators" : {
-        "active" : 0,
-        "optionString" : "'always',  {'enforceForIfStatements': false}"
-      },
       "max-classes-per-file" : {
         "active" : 0,
         "optionString" : "{'ignoreExpressions': false, 'max': 1}"
@@ -1023,9 +1035,6 @@
       "no-empty-pattern" : {
         "active" : 1
       },
-      "no-empty-static-block" : {
-        "active" : 0
-      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -1057,8 +1066,7 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1,
-        "optionString" : "{'allowEmptyCase': false}"
+        "active" : 1
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1164,9 +1172,6 @@
         "active" : 0
       },
       "no-new-func" : {
-        "active" : 0
-      },
-      "no-new-native-nonconstructor" : {
         "active" : 0
       },
       "no-new-object" : {
@@ -1909,7 +1914,6 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
