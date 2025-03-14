@@ -90,3 +90,12 @@
 		border-radius: $globalradius !important;
 	}
 }
+// ------------------------------------------------
+
+
+// Give all img in a blog post a border-radius of $globalradius
+.single-post .post {
+	.fusion-imageframe {
+		border-radius: $globalradius !important;
+	}
+}

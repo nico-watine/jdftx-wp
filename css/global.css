@@ -84,6 +84,10 @@ nav.footer-menu .menu-item.current-menu-item a {
   border-radius: 16px !important;
 }
 
+.single-post .post .fusion-imageframe {
+  border-radius: 16px !important;
+}
+
 input,
 textarea {
   border-color: #758ca3 !important;
