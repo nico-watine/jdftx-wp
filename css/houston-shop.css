@@ -1,7 +1,6 @@
 @media only screen and (max-width : 640px) {
   .max640w-border-radius-global video {
     border-radius: 16px !important;
-    border-radius: 32px !important;
   }
 }
 

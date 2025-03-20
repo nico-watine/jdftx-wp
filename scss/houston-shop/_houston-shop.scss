@@ -5,8 +5,7 @@ $min641w: 'only screen and (min-width : 641px)';
 .max640w-border-radius-global {
 	video {
 		@media #{$max640w} {
-			border-radius: $globalradius !important;
-			border-radius: 32px !important;
+			border-radius: $globalradius !important; // 16px
 		}
 	}
 }
