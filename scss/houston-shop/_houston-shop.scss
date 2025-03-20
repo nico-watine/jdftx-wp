@@ -2,9 +2,10 @@ $max640w: 'only screen and (max-width : 640px)';
 $min641w: 'only screen and (min-width : 641px)';
 
 
-.max640w-border-radius-32px {
+.max640w-border-radius-global {
 	video {
 		@media #{$max640w} {
+			border-radius: $globalradius !important;
 			border-radius: 32px !important;
 		}
 	}
