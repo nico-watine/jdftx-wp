@@ -33,6 +33,14 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/art-and-provenance-of-anduze-pottery.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/art-and-provenance-of-anduze-pottery.html",
+      "oF" : 0
+    },
     "\/avada-child-theme\/functions.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -340,8 +348,8 @@
     "creationDate" : 711989007.52265203,
     "displayValue" : "JDFTX-WP",
     "displayValueWasSetByUser" : 1,
-    "iconImageName" : "brackets-tar",
-    "iconImageWasSetByUser" : 0
+    "iconImageName" : "meme-grumpy",
+    "iconImageWasSetByUser" : 1
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
