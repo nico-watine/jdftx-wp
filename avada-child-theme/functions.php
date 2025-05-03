@@ -73,6 +73,17 @@ function use_original_gif($html, $post_id, $post_thumbnail_id, $size, $attr) {
 }
 add_filter('post_thumbnail_html', 'use_original_gif', 10, 5);
 
+// Disable creation of static smaller .gif uploads
+function disable_gif_resizing($metadata, $attachment_id) {
+	$mime = get_post_mime_type($attachment_id);
+	if ($mime === 'image/gif') {
+		// Prevent thumbnail generation
+		$metadata['sizes'] = array();
+	}
+	return $metadata;
+}
+add_filter('wp_generate_attachment_metadata', 'disable_gif_resizing', 10, 2);
+
 // ----------------------
 // Below all are related to oEmbed, so disabling might affect my Instagram feed from loading:
 
