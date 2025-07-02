@@ -6,12 +6,19 @@ Website Ideas!:
 		-Currently ours are just images of our own print ads
 	☐	Could do a New Arrivals page with featured items, and they can have PDF tear sheets? (JHA)
 		-Woocommerce PDF & Print Plugin
-	☐	Transfer Wordfence premium license from Excess to JDF
+	✔	Transfer Wordfence premium license from Excess to JDF @done (25-07-02 10:22)
 		-Getting lots of unauthorized login attempts
 	☐	Looking for something specific? We might have it in RT!
 		-Or something like that. Coco said it could get super complicated if we make like a specific "pick" for the customer. And we don't want to set precedence that we will always have it in RT. But if I do do a section like that, can do a banner with bg video of walking through the warehouse. It gives the idea of just how large the space is
 		-Compound is 2 acres
 	☐	Compound is 2 acres
+
+Custom CSS:
+	☐	remove thumbnails from lightbox so that main image is larger
+	☐	remove the -webkit-callout property so that lightbox images can be saved/interacted with on ios mobile
+		this might actually improve the finger swipe interactions
+
+
 
 
 Business Thoughts:
@@ -51,7 +58,7 @@ Blog Ideas:
 	☐	Also the Lalique (even though we've sold some)
 	☐	A spotlight on our majolica and faiance pieces
 		Can give history on the traditions, and samples of our pieces
-	☐	feature new Napoleon III mirror, is a period piece
+	✔	feature new Napoleon III mirror, is a period piece @done (25-07-02 10:22)
 	☐	A history and background on limoges porcelain
 
 
