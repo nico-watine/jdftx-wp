@@ -231,6 +231,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/scss\/global\/avada-elements\/_lightbox.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/_lightbox.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/scss\/global\/events\/_events.scss" : {
       "aP" : 0,
       "bl" : 0,
