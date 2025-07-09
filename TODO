@@ -14,7 +14,9 @@ Website Ideas!:
 	☐	Compound is 2 acres
 
 Custom CSS:
-	☐	remove thumbnails from lightbox so that main image is larger
+	✔	remove thumbnails from lightbox so that main image is larger @done (25-07-03 13:44)
+	☐	need to actually delete the element from theme files so that lightbox image enlarges
+		right now (with the above css done) the gallery thumbs are missing, but their <div> is still present, so the lightbox image is giving that space
 	☐	remove the -webkit-callout property so that lightbox images can be saved/interacted with on ios mobile
 		this might actually improve the finger swipe interactions
 

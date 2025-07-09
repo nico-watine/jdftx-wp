@@ -121,6 +121,24 @@ textarea {
   padding: 16px;
 }
 
+.ilightbox-holder,
+.ilightbox-holder .ilightbox-container,
+.ilightbox-holder .ilightbox-container .ilightbox-caption,
+.ilightbox-holder .ilightbox-container .ilightbox-social,
+.ilightbox-holder .ilightbox-container .ilightbox-social *,
+.ilightbox-holder .ilightbox-container img.ilightbox-image,
+.ilightbox-loader,
+.ilightbox-loader *,
+.ilightbox-overlay,
+.ilightbox-thumbnails,
+.ilightbox-thumbnails *,
+.ilightbox-toolbar,
+.ilightbox-toolbar * {
+  -webkit-touch-callout: default !important;
+  user-select: auto !important;
+  -webkit-user-select: auto !important;
+}
+
 .tribe-common .tribe-common-c-btn-border-small,
 .tribe-common a.tribe-common-c-btn-border-small {
   border: 2px solid #1779ba !important;
