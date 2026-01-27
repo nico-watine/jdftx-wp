@@ -121,3 +121,10 @@ a.tribe-events-gmap {
 .tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {
 	width: 4px !important;
 }
+
+.longWord,
+.longWord * {
+	overflow-wrap: break-word;
+	word-break: break-word;
+	hyphens: auto;
+}
