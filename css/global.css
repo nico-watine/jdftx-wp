@@ -194,6 +194,10 @@ a.tribe-events-gmap:hover {
   hyphens: auto !important;
 }
 
+.tribe-events-event-meta {
+  color: #fff !important;
+}
+
 .single-tribe_events .tribe-events-schedule h3 {
   white-space: unset !important;
 }
