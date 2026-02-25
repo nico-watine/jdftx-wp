@@ -223,6 +223,13 @@ a.tribe-events-gmap:hover {
   width: 4px !important;
 }
 
+.longWord,
+.longWord * {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
 a[href^=tel] {
   color: inherit !important;
 }
