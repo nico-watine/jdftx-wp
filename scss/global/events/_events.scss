@@ -43,14 +43,15 @@
 // Main "Add to Calendar" button on single event page
 // Main "Subscribe to Calendar" button on event listings page
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
-	background: $linkblue !important;
+	background: $cobaltblue !important;
 	border-radius: $globalradius*.75 !important;
 	color: $white !important;
-	border: 2px solid $linkblue !important;
+	border: 2px solid $cobaltblue !important;
 
 	&:hover,
 	&:focus {
-		background: $breadcrumbblue !important;
+		background: $linkblue !important;
+		// color: $white !important;
 		border-color: $white !important;
 	}
 }

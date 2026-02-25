@@ -171,13 +171,13 @@ textarea {
 }
 
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button {
-  background: #1779ba !important;
+  background: #4A6473 !important;
   border-radius: 12px !important;
   color: #fff !important;
-  border: 2px solid #1779ba !important;
+  border: 2px solid #4A6473 !important;
 }
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button:hover, .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button:focus {
-  background: #5ac8fa !important;
+  background: #1779ba !important;
   border-color: #fff !important;
 }
 
