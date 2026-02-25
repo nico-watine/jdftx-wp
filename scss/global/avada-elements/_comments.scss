@@ -1,21 +1,10 @@
 input,
 textarea {
-	border-color: $jdfblue !important;
 	color: $black !important;
 }
 
 .commentsElement {
-	// textarea {
-	// 	border-color: $jdfblue !important;
-	// 	color: $black !important;
-	// }
-
 	#comment-input {
-		// input {
-		// 	border-color: $jdfblue !important;
-		// 	color: $black !important;
-		// }
-
 		input#url {
 			display: none !important;
 			visibility: hidden !important;
@@ -24,13 +13,14 @@ textarea {
 
 	.form-submit {
 		input#comment-submit {
-			background: $jdfblue !important;
-			color: $white !important;
+			background: $cremefraiche !important;
+			color: $black !important;
+			border-color: $darkolive !important;
 
 			&:hover {
-				background: $yellow !important;
-				border-color: $jdfblue !important;
-				color: $black !important;
+				background: $darkolive !important;
+				border-color: $white !important;
+				color: $white !important;
 			}
 		}
 	}

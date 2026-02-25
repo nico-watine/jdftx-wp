@@ -103,7 +103,6 @@ nav.footer-menu .menu-item.current-menu-item a {
 
 input,
 textarea {
-  border-color: #819dad !important;
   color: #0a0a0a !important;
 }
 
@@ -112,13 +111,14 @@ textarea {
   visibility: hidden !important;
 }
 .commentsElement .form-submit input#comment-submit {
-  background: #819dad !important;
-  color: #fff !important;
+  background: #F4ECD9 !important;
+  color: #0a0a0a !important;
+  border-color: #656B5C !important;
 }
 .commentsElement .form-submit input#comment-submit:hover {
-  background: #fffeb3 !important;
-  border-color: #819dad !important;
-  color: #0a0a0a !important;
+  background: #656B5C !important;
+  border-color: #fff !important;
+  color: #fff !important;
 }
 
 .grid-gallery-cards .fusion-gallery-image {
