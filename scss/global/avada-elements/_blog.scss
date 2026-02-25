@@ -1,5 +1,18 @@
 // Global Container - "Le Blog" banner section on non-blog pages
 // Displays latest 4 blog posts (2 on mobile)
+.jdf-blog-teasers .fusion-post-slideshow,
+.jdf-blog-teasers .fusion-image-wrapper {
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+}
+
+.jdf-blog-teasers img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
 .blogElement {
 	.fusion-post-wrapper {
 		// styling the article card

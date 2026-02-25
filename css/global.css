@@ -34,6 +34,20 @@ nav.footer-menu .menu-item.current-menu-item a {
   text-underline-offset: initial !important;
 }
 
+.jdf-blog-teasers .fusion-post-slideshow,
+.jdf-blog-teasers .fusion-image-wrapper {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+}
+
+.jdf-blog-teasers img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
 .blogElement .fusion-post-wrapper {
   border-radius: 20px;
   overflow: hidden;
