@@ -250,3 +250,8 @@ a.tribe-events-gmap:hover {
 a[href^=tel] {
   color: inherit !important;
 }
+
+.text-shadow,
+.text-shadow * {
+  text-shadow: 0 0 5px #000 !important;
+}

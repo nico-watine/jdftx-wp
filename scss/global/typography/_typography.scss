@@ -3,3 +3,8 @@
 a[href^='tel'] {
 	color: inherit !important; // Inherit text color of parent element
 }
+
+.text-shadow,
+.text-shadow * {
+	text-shadow: 0 0 5px #000 !important;
+}
