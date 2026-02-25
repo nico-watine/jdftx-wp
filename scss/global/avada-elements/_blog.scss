@@ -2,18 +2,12 @@
 // Displays latest 4 blog posts (2 on mobile)
 .jdf-blog-teasers .fusion-post-slideshow,
 .jdf-blog-teasers .fusion-image-wrapper {
-  aspect-ratio: 4 / 3;
-  overflow: hidden;
+	// make <img> thumbnail of blog card a 4:3 ratio so can use equal heights
+	aspect-ratio: 4 / 3;
+	overflow: hidden;
 }
 
-.jdf-blog-teasers img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-}
-.blogElement {
+.jdf-blog-teasers {
 	.fusion-post-wrapper {
 		// styling the article card
 		border-radius: 20px;
@@ -25,11 +19,20 @@
 			font-size: 24px !important;
 		}
 	}
+
+	img {
+		// <img> rules to comply with forcing card feature <img> to be 4:3
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center;
+		display: block;
+	}
 }
 // ------------------------------------------------
 
 
-// <div> with blue background above page content that contains article meta info (Author/Published/Categories)
+// <div> with green background above page content that contains article meta info (Author/Published/Categories)
 .fusion-body .fusion-meta-tb {
 	// give the <div> curved corners
 	border-radius: 12px !important;
