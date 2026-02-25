@@ -200,7 +200,7 @@ a.tribe-events-gmap:hover {
 }
 
 #tribe-events-content #tribe-events-footer {
-  border-color: #819dad !important;
+  border-color: #656B5C !important;
 }
 
 .tribe-events-content {
@@ -209,6 +209,10 @@ a.tribe-events-gmap:hover {
 
 .tribe-events-event-meta {
   color: #fff !important;
+  font-size: 18px !important;
+}
+.tribe-events-event-meta h4 {
+  font-size: 22px !important;
 }
 
 .single-tribe_events .tribe-events-schedule h3 {
@@ -223,13 +227,13 @@ a.tribe-events-gmap:hover {
 }
 
 .tribe-events .tribe-events-calendar-list-nav {
-  border-top: 4px solid #819dad !important;
+  border-top: 4px solid #656B5C !important;
 }
 
 .tribe-events .tribe-events-calendar-list__month-separator:after {
   height: 4px !important;
   border-radius: 4px !important;
-  background-color: #819dad !important;
+  background-color: #656B5C !important;
 }
 
 .tribe-events .tribe-events-calendar-list__event-row--featured .tribe-events-calendar-list__event-date-tag-datetime:after {

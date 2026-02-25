@@ -81,7 +81,7 @@ a.tribe-events-gmap {
 
 // The thin border above and below the previous/next event links at the bottom of the event page
 #tribe-events-content #tribe-events-footer {
-	border-color: $jdfblue !important;
+	border-color: $darkolive !important;
 }
 
 // Allow all text on a single event page to break and wrap with hyphens (headings, links, and body text)
@@ -90,9 +90,14 @@ a.tribe-events-gmap {
 	hyphens: auto !important;
 }
 
-// Make text in sidebar of event page white
+// Tweak text styles in events sidebar
 .tribe-events-event-meta {
 	color: #fff !important;
+	font-size: 18px !important;
+
+	h4 {
+		font-size: 22px !important;
+	}
 }
 
 // Allow the event's date & time to break lines on mobile
@@ -112,14 +117,14 @@ a.tribe-events-gmap {
 
 // The div with "Previous/Next Events" at the bottom of the main events listing page
 .tribe-events .tribe-events-calendar-list-nav {
-	border-top: 4px solid $jdfblue !important;
+	border-top: 4px solid $darkolive !important;
 }
 
 // The separator of a new month on the main events listing page
 .tribe-events .tribe-events-calendar-list__month-separator:after {
 	height: 4px !important;
 	border-radius: 4px !important;
-	background-color: $jdfblue !important;
+	background-color: $darkolive !important;
 }
 
 // The vertical blue line next to a featured event on the main events listing page
