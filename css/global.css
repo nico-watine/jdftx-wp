@@ -104,6 +104,7 @@ nav.footer-menu .menu-item.current-menu-item a {
 input,
 textarea {
   color: #0a0a0a !important;
+  border-color: #1779ba !important;
 }
 
 .commentsElement #comment-input input#url {
