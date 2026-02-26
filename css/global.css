@@ -256,3 +256,13 @@ a[href^=tel] {
 .text-shadow * {
   text-shadow: 0 0 5px #000 !important;
 }
+
+.text-white,
+.text-white * {
+  color: #fff !important;
+}
+
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-input {
+  color: #000 !important;
+  text-shadow: none !important;
+}

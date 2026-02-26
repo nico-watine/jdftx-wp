@@ -8,3 +8,14 @@ a[href^='tel'] {
 .text-shadow * {
 	text-shadow: 0 0 5px #000 !important;
 }
+
+.text-white,
+.text-white * {
+	color: #fff !important;
+}
+
+// Keep <input> text black even if parent container is set to .text-white
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-input {
+	color: #000 !important;
+	text-shadow: none !important;
+}
