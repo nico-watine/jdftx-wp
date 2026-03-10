@@ -191,8 +191,9 @@ textarea {
 }
 .tribe-events-c-subscribe-dropdown__list-item:hover {
   background-color: #1779ba !important;
+}
+.tribe-events-c-subscribe-dropdown__list-item:hover * {
   color: #fff !important;
-  text-decoration: underline !important;
 }
 
 .tribe-events-event-url a:hover,

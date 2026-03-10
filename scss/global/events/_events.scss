@@ -61,13 +61,16 @@
 }
 
 // The invidual calendar options within the calendar type dropdown list
+// "Google Calendar/iCalendar/Outlook 365/Outlook Live"
 .tribe-events-c-subscribe-dropdown__list-item {
 	border-radius: $globalradius*.5 !important;
 
 	&:hover {
 		background-color: $linkblue !important;
-		color: $white !important;
-		text-decoration: underline !important;
+
+		* {
+			color: $white !important;
+		}
 	}
 }
 
