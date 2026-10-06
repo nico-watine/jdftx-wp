@@ -1,7 +1,22 @@
+// Rules to hide elements since
+// "Houston Shop" is a Yoast SEO Local Post,
+// not an actual Page
+
+.single-navigation,
+.fusion-post-title-meta-wrap {
+	display: none;
+	visibility: hidden;
+}
+
+.post,
+#content {
+	margin-bottom: 0 !important;
+}
+
+// end Yoast Local Post rules ----
+
+
 $max640w: 'only screen and (max-width : 640px)';
-$min641w: 'only screen and (min-width : 641px)';
-
-
 .max640w-border-radius-global {
 	video {
 		@media #{$max640w} {
@@ -10,6 +25,7 @@ $min641w: 'only screen and (min-width : 641px)';
 	}
 }
 
+$min641w: 'only screen and (min-width : 641px)';
 .min641w-height-400px {
 	video {
 		@media #{$min641w} {

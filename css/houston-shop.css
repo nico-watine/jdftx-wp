@@ -1,11 +1,1 @@
-@media only screen and (max-width : 640px) {
-  .max640w-border-radius-global video {
-    border-radius: 16px !important;
-  }
-}
-
-@media only screen and (min-width : 641px) {
-  .min641w-height-400px video {
-    height: 400px !important;
-  }
-}
+.single-navigation,.fusion-post-title-meta-wrap{display:none;visibility:hidden}.post,#content{margin-bottom:0 !important}@media only screen and (max-width : 640px){.max640w-border-radius-global video{border-radius:16px !important}}@media only screen and (min-width : 641px){.min641w-height-400px video{height:400px !important}}
