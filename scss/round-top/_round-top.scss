@@ -1,0 +1,16 @@
+// Rules to hide elements since
+// "Houston Shop" is a Yoast SEO Local Post,
+// not an actual Page
+
+.single-navigation,
+.fusion-post-title-meta-wrap {
+	display: none;
+	visibility: hidden;
+}
+
+.post,
+#content {
+	margin-bottom: 0 !important;
+}
+
+// end Yoast Local Post rules ----
