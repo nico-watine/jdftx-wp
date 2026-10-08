@@ -26,10 +26,10 @@ $max640w: 'only screen and (max-width : 640px)';
 }
 
 $min641w: 'only screen and (min-width : 641px)';
-.min641w-height-400px {
+.min641w-height-440px {
 	video {
 		@media #{$min641w} {
-			height: 400px !important;
+			height: 440px !important;
 		}
 	}
 }
