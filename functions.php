@@ -56,7 +56,7 @@ add_action('wp_head', 'modify_viewport_meta_tag', 1);
 
 // Set the browser theme-color
 function set_browser_theme_color() {
-	echo '<meta name="theme-color" content="#4A6473">';
+	echo '<meta name="theme-color" content="#656B5C">';
 }
 add_action('wp_head', 'set_browser_theme_color', 1);
 

@@ -1,0 +1,23 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for Avada theme
+Author: ThemeFusion
+Author URI: https://theme-fusion.com
+Template: Avada
+Version: 1.7.3
+Text Domain: Avada
+*/
+
+/* Changelog */
+
+/* ---v1.7.3--- */
+/* Tweak theme-color to JDF olive green via functions.php */
+
+/* ---v1.7.2--- */
+/* Add function so old HTX/RT Pages 301 to new Yoast Locations */
+
+/* ---v1.7.1--- */
+/* Add function to remove /location/ from Yoast Location slug */
+
+/* ---v1.6.0--- */
+/* Add snippet to functions to Avada back-end builder loads on Yoast Local SEO "Location" pages */
