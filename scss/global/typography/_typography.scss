@@ -4,6 +4,18 @@ a[href^='tel'] {
 	color: inherit !important; // Inherit text color of parent element
 }
 
+.full-hero-nav,
+.full-hero-nav * {
+	.awb-menu__m-toggle-inner {
+		text-shadow: 0 0 5px #000 !important;
+	}
+
+	$minWidth-1024: "only screen and (min-width : 1024px)";
+	@media #{$minWidth-1024} {
+		text-shadow: 0 0 5px #000 !important;
+	}
+}
+
 .text-shadow,
 .text-shadow * {
 	text-shadow: 0 0 5px #000 !important;

@@ -235,6 +235,17 @@ a[href^=tel] {
   color: inherit !important;
 }
 
+.full-hero-nav .awb-menu__m-toggle-inner,
+.full-hero-nav * .awb-menu__m-toggle-inner {
+  text-shadow: 0 0 5px #000 !important;
+}
+@media only screen and (min-width : 1024px) {
+  .full-hero-nav,
+  .full-hero-nav * {
+    text-shadow: 0 0 5px #000 !important;
+  }
+}
+
 .text-shadow,
 .text-shadow * {
   text-shadow: 0 0 5px #000 !important;
